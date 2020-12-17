@@ -1,14 +1,14 @@
 <template>
-    <el-header class="header">Header</el-header>
+    <el-container>
+        这是订单页
+    </el-container>
 </template>
 <style lang="scss" scoped>
-    .header {
-        border: 1px solid #e6e6e6;
-    }
+
 </style>
 <script>
 export default {
-    name: "Header",
+    name: "OrderList",
     data() {
         return {
             
